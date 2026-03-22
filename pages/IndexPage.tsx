@@ -32,7 +32,7 @@ export default function IndexPage() {
             <a href="#contacto" onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }} className="text-gray-700 hover:text-teal-600 transition-colors">Contacto</a>
             <a href="/servicios/soporte-en-espanol-para-viajeros-por-asia" className="text-gray-700 hover:text-teal-600 transition-colors">Soporte en Español</a>
             <a href="/servicios/business-consulting" className="text-gray-700 hover:text-teal-600 transition-colors">Business Consulting</a>
-            <a href="/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
+            <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
           </nav>
           <button
             className="md:hidden text-gray-700"
@@ -49,7 +49,7 @@ export default function IndexPage() {
               <a href="#contacto" onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }} className="text-gray-700 hover:text-teal-600 transition-colors">Contacto</a>
               <a href="/servicios/soporte-en-espanol-para-viajeros-por-asia" className="text-gray-700 hover:text-teal-600 transition-colors">Soporte en Español</a>
               <a href="/servicios/business-consulting" className="text-gray-700 hover:text-teal-600 transition-colors">Business Consulting</a>
-              <a href="/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
+              <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
             </nav>
           </div>
         )}

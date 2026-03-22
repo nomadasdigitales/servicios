@@ -13,7 +13,9 @@ const routes = Object.entries(pages).map(([path, module]) => {
 
   // Special cases for complex names
   const specialSlugs = {
-    'SoporteenEspañolparaViajerosporAsía': 'soporte-en-espanol-para-viajeros-por-asia'
+    'SoporteenEspañolparaViajerosporAsía': 'soporte-en-espanol-para-viajeros-por-asia',
+    'DiseñoWebYAppMovil': 'servicios/diseno-web-y-app-movil',
+    'PublicidadDigital': 'servicios/publicidad-digital'
   }
 
   let slug

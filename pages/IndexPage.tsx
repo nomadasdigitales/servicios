@@ -73,6 +73,9 @@ export default function IndexPage() {
             <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors">
               Publicidad Digital
             </a>
+            <a href="/servicios/diseno-web-y-app-movil" className="bg-pink-600 text-white px-8 py-3 rounded-lg hover:bg-pink-700 transition-colors">
+              Diseño Web y App
+            </a>
           </div>
         </div>
       </section>
@@ -81,7 +84,7 @@ export default function IndexPage() {
       <section id="servicios" className="py-16 px-4 bg-white">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Nuestros Servicios</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold text-teal-600 mb-4">Soporte en Español para Viajeros por Asia</h3>
               <p className="text-gray-600 mb-4">

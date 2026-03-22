@@ -32,8 +32,7 @@ export default function IndexPage() {
             <a href="#contacto" onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }} className="text-gray-700 hover:text-teal-600 transition-colors">Contacto</a>
             <a href="/servicios/soporte-en-espanol-para-viajeros-por-asia" className="text-gray-700 hover:text-teal-600 transition-colors">Soporte en Español</a>
             <a href="/servicios/business-consulting" className="text-gray-700 hover:text-teal-600 transition-colors">Business Consulting</a>
-            <a href="/servicios/publicidad-digital" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
-            <a href="/servicios/diseno-web-y-app-movil" className="text-gray-700 hover:text-teal-600 transition-colors">Diseño Web y App</a>
+            <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
           </nav>
           <button
             className="md:hidden text-gray-700"
@@ -50,8 +49,7 @@ export default function IndexPage() {
               <a href="#contacto" onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }} className="text-gray-700 hover:text-teal-600 transition-colors">Contacto</a>
               <a href="/servicios/soporte-en-espanol-para-viajeros-por-asia" className="text-gray-700 hover:text-teal-600 transition-colors">Soporte en Español</a>
               <a href="/servicios/business-consulting" className="text-gray-700 hover:text-teal-600 transition-colors">Business Consulting</a>
-              <a href="/servicios/publicidad-digital" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
-              <a href="/servicios/diseno-web-y-app-movil" className="text-gray-700 hover:text-teal-600 transition-colors">Diseño Web y App</a>
+              <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-gray-700 hover:text-teal-600 transition-colors">Publicidad Digital</a>
             </nav>
           </div>
         )}
@@ -72,7 +70,7 @@ export default function IndexPage() {
             <a href="/servicios/business-consulting" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               Consultoría Empresarial
             </a>
-            <a href="/servicios/publicidad-digital" className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors">
+            <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors">
               Publicidad Digital
             </a>
             <a href="/servicios/diseno-web-y-app-movil" className="bg-pink-600 text-white px-8 py-3 rounded-lg hover:bg-pink-700 transition-colors">
@@ -110,16 +108,7 @@ export default function IndexPage() {
               <p className="text-gray-600 mb-4">
                 Estrategias prácticas para lanzar campañas de Google Ads y Meta Ads que generen resultados mientras trabajas desde cualquier lugar.
               </p>
-              <a href="/servicios/publicidad-digital" className="text-purple-600 hover:text-purple-800 font-semibold">
-                Más información →
-              </a>
-            </div>
-            <div className="bg-gradient-to-r from-pink-50 to-pink-100 p-6 rounded-lg">
-              <h3 className="text-2xl font-semibold text-pink-600 mb-4">Diseño Web y App Móvil</h3>
-              <p className="text-gray-600 mb-4">
-                Diseño UI/UX moderno y funcional para emprendedores nómadas. Landing pages, PWAs y e-commerce optimizados para trabajar desde cualquier lugar.
-              </p>
-              <a href="/servicios/diseno-web-y-app-movil" className="text-pink-600 hover:text-pink-800 font-semibold">
+              <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-purple-600 hover:text-purple-800 font-semibold">
                 Más información →
               </a>
             </div>

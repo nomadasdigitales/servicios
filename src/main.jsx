@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './index.css'
 
 // Auto-import all page components from the pages directory
 const pages = import.meta.glob('../pages/**/*Page.tsx', { eager: true })

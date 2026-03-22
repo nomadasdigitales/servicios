@@ -10,7 +10,23 @@ const pages = import.meta.glob('../pages/**/*Page.tsx', { eager: true })
 const routes = Object.entries(pages).map(([path, module]) => {
   // Extract slug from file path (e.g., ../pages/MyPage.tsx -> my-page)
   const fileName = path.split('/').pop().replace('Page.tsx', '')
-  const slug = fileName.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+
+  // Special cases for complex names
+  const specialSlugs = {
+    'SoporteenEspañolparaViajerosporAsía': 'soporte-en-espanol-para-viajeros-por-asia'
+  }
+
+  let slug
+  if (specialSlugs[fileName]) {
+    slug = specialSlugs[fileName]
+  } else {
+    // Convert PascalCase to kebab-case
+    slug = fileName
+      .replace(/([a-z])([A-Z])/g, '$1-$2') // Insert hyphen between lowercase and uppercase
+      .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2') // Handle consecutive uppercase letters
+      .toLowerCase()
+  }
+
   return {
     path: slug === 'index' ? '/' : `/${slug}`,
     component: module.default

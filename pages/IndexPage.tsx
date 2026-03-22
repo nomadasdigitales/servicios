@@ -70,7 +70,7 @@ export default function IndexPage() {
             <a href="/servicios/business-consulting" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               Consultoría Empresarial
             </a>
-            <a href="/publicidad-digital-para-emprendedores-nomadas" className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors">
+            <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors">
               Publicidad Digital
             </a>
           </div>
@@ -105,7 +105,7 @@ export default function IndexPage() {
               <p className="text-gray-600 mb-4">
                 Estrategias prácticas para lanzar campañas de Google Ads y Meta Ads que generen resultados mientras trabajas desde cualquier lugar.
               </p>
-              <a href="/publicidad-digital-para-emprendedores-nomadas" className="text-purple-600 hover:text-purple-800 font-semibold">
+              <a href="/servicios/publicidad-digital-para-emprendedores-nomadas" className="text-purple-600 hover:text-purple-800 font-semibold">
                 Más información →
               </a>
             </div>
